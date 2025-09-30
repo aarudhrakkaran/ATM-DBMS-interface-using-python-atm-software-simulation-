@@ -1,6 +1,6 @@
 
 import mysql.connector as sql
-conn=sql.connect(host='localhost',user='root',password='aarudh123',database='atm_bank')
+conn=sql.connect(host='localhost',user='root',password='any pass',database='atm_bank')
 c1=conn.cursor()
 print("=================================^_^============================")
 print("================WELCOME==TO==KARAN'S==ATM================")
@@ -212,3 +212,4 @@ if op==3:
 
 
                   
+
