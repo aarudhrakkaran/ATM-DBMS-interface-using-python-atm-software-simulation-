@@ -19,7 +19,7 @@ def log_transaction(c1, conn, acct, txn_type, amount):
     conn.commit()
 
 while True:
-    conn=sql.connect(host='localhost',user='root',password='aarudh123',database='atm_bank')
+    conn=sql.connect(host='localhost',user='root',password='Password',database='atm_bank')
     c1=conn.cursor()
     main_menu()
     op=int(input("Enter your choice : "))
@@ -191,3 +191,4 @@ while True:
 
 
                   
+
